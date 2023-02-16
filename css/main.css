@@ -41,3 +41,34 @@ p {
     background-color: brown;
     height: 300px;
 }
+
+@media screen and (min-width: 641px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    #box1 {
+        background-color: blue;
+        width: 25%;
+    }
+
+    #box2 {
+        background-color: purple;
+        width: 25%;
+    }
+
+    #box3 {
+        background-color: grey;
+        display: block;
+        width: 25%;
+    }
+
+    #box4 {
+        background-color: brown;
+        display: block;
+        width: 25;
+    }
+    
+}
